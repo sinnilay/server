@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      body{
+        background-color: #040516;
+      }
+      
+       .one{
+        position: absolute;
+        top: 0;
+        left: 38%;
+        background-color:  #d88323;
+        /* display: inline; */
+        width: 175px;
+        height: 130px;
+        border-radius: 0 0 87.5px 87.5px;
+       }
+       .two{
+        position: absolute;
+        top: 0;
+        left: 52%;
+        background-color:  #d88323;
+        /* display: inline; */
+        width: 225px;
+        height: 300px;
+        border-radius: 0 0 112.5px 112.5px;
+       }
+       .three{
+        position: absolute;
+        top: 0;
+        left: 70%;
+        background-color:  #d88323;
+        /* display: inline; */
+        width: 240px;
+        height: 480px;
+        border-radius: 0 0 130px 130px;
+       }
+
+       .sub{
+        position: absolute;
+        top: 6%;
+        left: 2%;
+        display: flex;
+        height: 500px;
+        width: 90%;
+        padding: 50px;
+        background-color: #211c3e;
+       }
+       .main{
+        position: absolute;
+        top: 15%;
+        left: 10%;
+        background-color:  #d88323;
+        width: 1500px;
+        height: 700px;
+        border-radius: 25px;
+        border: 2px solid black;
+        
+
+       }
+       #ca{
+         position: absolute;
+         top: 35%;
+         left: 35px;
+         
+       }
+       #sem{
+         position: absolute;
+         top: 65%;
+         left: 45px;
+       }
+       #exam{
+         position: absolute;
+         top: 85%;
+         left: 75px;
+       }
+       button {
+  height: 50px;
+  width: 200px;
+  position: absolute;
+  top: 530px;
+  border-radius: 25px; 
+  border: 2px solid black;
+}
+input{
+  height: 10%;
+  width: 35%;
+  font-size: xx-large;
+  font-style: italic;
+  font-weight: bold;
+  
+}
+.caurse{
+  position: absolute;
+  top: 23%;
+  left: 13%;
+}
+.sem{
+  
+  position: absolute;
+  top: 53%;
+  left: 30%;
+
+}
+.exam{
+  position: absolute;
+  top: 82%;
+  left: 48%;
+}
+@media only screen and (max-width: 767px)
+{
+  .main{
+    background-color: aqua;
+    width: 400px;
+  }
+  .sub{
+    width: 68%;
+  }
+  .one{
+        position: absolute;
+        top: 0;
+        left: 15%;
+        background-color:  #d88323;
+        /* display: inline; */
+        width: 50px;
+        height: 110px;
+        border-radius: 0 0 87.5px 87.5px;
+       }
+       .two{
+        position: absolute;
+        top: 0;
+        left: 30%;
+        background-color:  #d88323;
+        /* display: inline; */
+        width: 55px;
+        height: 150px;
+        border-radius: 0 0 112.5px 112.5px;
+       }
+       .three{
+        position: absolute;
+        top: 0;
+        left: 80%;
+        background-color:  #d88323;
+        /* display: inline; */
+        width: 58px;
+        height: 200px;
+        border-radius: 0 0 130px 130px;
+       }
+}
+
+
+</style>
+</head>
+<body>
+<div class="main">
+
+  <section class="sub">
+    <form action="">
+    <input type="text" class="caurse" class="data">
+    <div class="one"><h2 id="ca">COURSE</h2></div>
+    <input type="text" class="sem">
+    <div class="two"><h2 id="sem">SEMESTER</h2></div>
+    <input type="text" class="exam">
+    <div class="three"><h2 id="exam">EXAM</h2></div>
+    <button><h2>Submit</h2></button>
+  </form>
+  </section>
+</div>
+</body>
+</html>
